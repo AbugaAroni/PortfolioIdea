@@ -1,37 +1,37 @@
 body, html {
-    height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato", sans-serif;
-    color: #777;
-  }
-  
-  .bg {
-    /* The image used */
-    background-image: url("images/backgroundimg.webp");
-  
-    /* Half height */
-    height: 50%;
-  
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
 
-  .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-  }
-  
-  .caption span.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-  }
-  
+.bg {
+  position: relative;
+  opacity: 0.70;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.bg {
+  background-image: linear-gradient(45deg,
+  rgba(245, 70, 66, 0.75),
+  rgba(8, 83, 156, 0.75)), url("../images/backgroundimg.webp");
+  height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
